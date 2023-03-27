@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "price": 12.99,
+      "rating": 4.5,
+      "image": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Spaghetti Bolognese",
+      "price": 10.99,
+      "rating": 4.2,
+      "image": "https://cdn.pixabay.com/photo/2017/06/21/22/42/spaghetti-2421276_960_720.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Fish and Chips",
+      "price": 14.99,
+      "rating": 4.8,
+      "image": "https://cdn.pixabay.com/photo/2017/08/05/18/28/fish-and-chips-2580174_960_720.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Caesar Salad",
+      "price": 8.99,
+      "rating": 4.0,
+      "image": "https://cdn.pixabay.com/photo/2016/02/05/13/34/caesar-salad-1186984_960_720.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Hamburger",
+      "price": 9.99,
+      "rating": 4.3,
+      "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_960_720.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sushi Platter",
+      "price": 20.99,
+      "rating": 4.7,
+      "image": "https://cdn.pixabay.com/photo/2017/08/09/08/54/food-2611304_960_720.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Grilled Steak",
+      "price": 22.99,
+      "rating": 4.6,
+      "image": "https://cdn.pixabay.com/photo/2018/09/30/19/53/grilled-steak-3716470_960_720.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Chicken Fajitas",
+      "price": 15.99,
+      "rating": 4.4,
+      "image": "https://cdn.pixabay.com/photo/2015/03/26/09/39/chicken-fajitas-690308_960_720.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Beef Stroganoff",
+      "price": 18.99,
+      "rating": 4.2,
+      "image": "https://cdn.pixabay.com/photo/2016/09/25/19/11/beef-stroganoff-1696615_960_720.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Vegetable Stir Fry",
+      "price": 12.99,
+      "rating": 4.3,
+      "image": "https://cdn.pixabay.com/photo/2017/05/12/08/29/stir-fry-2305974_960_720"
+    }
+]

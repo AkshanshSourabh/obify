@@ -164,13 +164,22 @@ export default {
   <script>
   import { QrcodeStream } from 'vue-qrcode-reader'
   import canvas from 'canvas';
+  import { useRouter } from 'vue-router';
+
 
   export default {
     components: {
       QrcodeStream
     },
+    data() {
+    return {
+      tableNumber: null
+    }
+  },
     methods: {
       onDecode(decodeString) {
+        this.tableNumber = decodeString
+        this.$router.push({ name: 'menu', params: { tableNumber: this.tableNumber } })
         console.log(decodeString)
       },
   
