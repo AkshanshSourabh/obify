@@ -6,13 +6,13 @@
       <v-icon>mdi-silverware</v-icon>
     </v-btn>
 
-    <v-btn value="favorites" @click= "$router.push('/')">
+    <v-btn value="favorites" @click= "$router.push('/cart')">
       <span>Cart</span>
 
       <v-icon>mdi-cart</v-icon>
     </v-btn>
 
-    <v-btn value="nearby" @click= "$router.push('/')">
+    <v-btn value="nearby" @click= "$router.push('/payment')">
       <span>Account</span>
 
       <v-icon>mdi-account</v-icon>

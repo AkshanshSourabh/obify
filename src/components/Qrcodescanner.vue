@@ -153,7 +153,11 @@ export default {
         <div class="absolute inset-0 flex items-center justify-center z-20">
           <div class="w-64 h-64 relative">
             <div class="absolute inset-0 border-4 border-white"></div> <!-- Square cutout for QR code -->
-            <qrcode-stream @decode="onDecode" :track="drawOutline"></qrcode-stream>
+            <v-row>
+              <v-col cols="4" offset="4">
+                <qrcode-stream @decode="onDecode" :track="drawOutline"></qrcode-stream>
+              </v-col>
+            </v-row>
             <canvas ref="canvas" class="absolute inset-0"></canvas>
           </div>
         </div>

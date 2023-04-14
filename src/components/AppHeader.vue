@@ -2,12 +2,12 @@
     <div class="app-header">
            <v-row>
             <v-col>
-                <v-text-field solo label="Search" append-icon="mdi-magnify">
+                <v-text-field solo label="Search" append-icon="mdi-magnify" @input="$emit('search', $event)">
                 </v-text-field>
             </v-col>
         </v-row>
     </div>
-    </template>
+</template>
     
     <script>
     export default {

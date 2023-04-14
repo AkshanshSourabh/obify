@@ -48,6 +48,21 @@ const routes = [
     name: 'MenuView',
     component: () => import('../views/MenuView.vue')
   },
+  {
+    path: '/cart',
+    name: 'CartView',
+    component: () => import('../views/CartView.vue')
+  },
+  {
+    path: '/payment',
+    name: 'PaymentView',
+    component: () => import('../views/PaymentView.vue')
+  },
+  {
+    path: '/admin',
+    name: 'AdminOrder',
+    component: () => import('../views/AdminOrder.vue')
+  },
   // {
   //   path: '/books/bookview/:id'
   // },
