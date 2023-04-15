@@ -36,7 +36,7 @@ To get started with Obify, follow these steps:
 1. Clone the repository to your local machine.
 2. Navigate to the project directory and run npm install to install the necessary dependencies.
 3. Create a .env file with the following variables:
-    *MONGODB_URI=<your_mongodb_uri>
+    *MONGODB_URI=<your_mongodb_uri>*
 4. Run *npm run serve* to start the development server.
 5. Open your web browser and navigate to http://localhost:8080 to view the app.
 
